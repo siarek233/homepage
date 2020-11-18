@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Strona główna</a>
+            <a href="nauka-html.html">Nauka</a>
+
+        </nav>
+    </header>
+
+    <main>
+        <header id="top">
+            <h1>Nauka</h1>
+        </header>
+
+        <section id="notatki">
+            <h2>Notatki:</h2>
+            <article>
+                <h3>Moje ulubione tagi:</h3>
+                <p>h1</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        Moja stopka <a href="#top">Przejdź do góry</a>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
